@@ -1,0 +1,24 @@
+{
+  "app": {
+    "title": "Bullsap 2026",
+    "tagline": "Free AI Market Practice"
+  },
+  "nav": {
+    "home": "Home",
+    "language": "Language",
+    "install": "Install App"
+  },
+  "offline": {
+    "title": "You're Offline",
+    "message": "The simulator shell is available offline after first load.",
+    "retry": "Retry"
+  },
+  "pwa": {
+    "install": "Install Bullsap",
+    "installDescription": "Install Bullsap 2026 for fast mobile practice and offline learning.",
+    "installing": "Installing...",
+    "installed": "App Installed!",
+    "notSupported": "Installation not supported on this device",
+    "dismiss": "Maybe Later"
+  }
+}
