@@ -1,4 +1,4 @@
-# Bullsap 2026 Market Brief
+# Bursapp Market Brief
 
 ## 2026 demand read
 
@@ -12,7 +12,7 @@ Research signals checked during repo creation:
 
 ## Best opportunity
 
-**Bullsap 2026: free AI-assisted market-practice app**
+**Bursapp: free AI-assisted market-practice app**
 
 Positioning:
 

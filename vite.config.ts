@@ -4,6 +4,7 @@ import path from 'path';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig(() => ({
+  base: '/bursapp-2026/',
   server: {
     host: '::',
     port: 8080,
@@ -14,21 +15,21 @@ export default defineConfig(() => ({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'icons/*.png'],
       manifest: {
-        name: 'Bullsap 2026 - AI Market Practice',
-        short_name: 'Bullsap',
+        name: 'Bursapp - AI Market Practice',
+        short_name: 'Bursapp',
         description: 'Free multilingual AI-assisted market simulator and financial learning app.',
         theme_color: '#34D399',
         background_color: '#080B12',
         display: 'standalone',
-        scope: '/',
-        start_url: '/',
+        scope: '/bursapp-2026/',
+        start_url: '/bursapp-2026/',
         categories: ['finance', 'education', 'productivity'],
         icons: [
-          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: '/icons/icon-256.png', sizes: '256x256', type: 'image/png' },
-          { src: '/icons/icon-384.png', sizes: '384x384', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: '/bursapp-2026/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: '/bursapp-2026/icons/icon-256.png', sizes: '256x256', type: 'image/png' },
+          { src: '/bursapp-2026/icons/icon-384.png', sizes: '384x384', type: 'image/png' },
+          { src: '/bursapp-2026/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+          { src: '/bursapp-2026/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {

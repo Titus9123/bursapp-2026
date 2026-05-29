@@ -35,22 +35,22 @@ type Copy = {
 
 const copy: Record<LanguageCode, Copy> = {
   en: {
-    title: 'Bullsap 2026', subtitle: 'Free AI-assisted financial learning, paper trading and market practice — built for mobile traffic.', start: 'Start free', free: 'Free with ads', noAdvice: 'Educational simulation only. No real money. No financial advice.', simulator: 'AI Market Simulator', lessons: 'Micro-lessons', quiz: 'Beginner quiz', aiCoach: 'AI coach mode', capital: 'Virtual capital', scenario: 'Scenario', allocation: 'Allocation', result: 'Projected practice result', risk: 'Risk score', diversification: 'Diversification', export: 'Export CSV', adReady: 'Ad-ready free app shell'
+    title: 'Bursapp', subtitle: 'Free AI-assisted financial learning, paper trading and market practice — built for mobile traffic.', start: 'Start free', free: 'Free with ads', noAdvice: 'Educational simulation only. No real money. No financial advice.', simulator: 'AI Market Simulator', lessons: 'Micro-lessons', quiz: 'Beginner quiz', aiCoach: 'AI coach mode', capital: 'Virtual capital', scenario: 'Scenario', allocation: 'Allocation', result: 'Projected practice result', risk: 'Risk score', diversification: 'Diversification', export: 'Export CSV', adReady: 'Ad-ready free app shell'
   },
   es: {
-    title: 'Bullsap 2026', subtitle: 'Educación financiera gratis con IA, paper trading y práctica de mercado — pensada para tráfico mobile.', start: 'Empezar gratis', free: 'Gratis con ads', noAdvice: 'Simulación educativa. Sin dinero real. No es consejo financiero.', simulator: 'Simulador de mercado con IA', lessons: 'Micro-lecciones', quiz: 'Quiz para principiantes', aiCoach: 'Modo coach IA', capital: 'Capital virtual', scenario: 'Escenario', allocation: 'Asignación', result: 'Resultado proyectado de práctica', risk: 'Score de riesgo', diversification: 'Diversificación', export: 'Exportar CSV', adReady: 'Shell free app listo para ads'
+    title: 'Bursapp', subtitle: 'Educación financiera gratis con IA, paper trading y práctica de mercado — pensada para tráfico mobile.', start: 'Empezar gratis', free: 'Gratis con ads', noAdvice: 'Simulación educativa. Sin dinero real. No es consejo financiero.', simulator: 'Simulador de mercado con IA', lessons: 'Micro-lecciones', quiz: 'Quiz para principiantes', aiCoach: 'Modo coach IA', capital: 'Capital virtual', scenario: 'Escenario', allocation: 'Asignación', result: 'Resultado proyectado de práctica', risk: 'Score de riesgo', diversification: 'Diversificación', export: 'Exportar CSV', adReady: 'Shell free app listo para ads'
   },
   he: {
-    title: 'Bullsap 2026', subtitle: 'למידה פיננסית חינמית עם AI, מסחר מדומה ותרגול שוק — מותאם למובייל.', start: 'התחלה חינם', free: 'חינם עם פרסומות', noAdvice: 'סימולציה לימודית בלבד. ללא כסף אמיתי. לא ייעוץ פיננסי.', simulator: 'סימולטור שוק עם AI', lessons: 'שיעורים קצרים', quiz: 'חידון מתחילים', aiCoach: 'מצב מאמן AI', capital: 'הון וירטואלי', scenario: 'תרחיש', allocation: 'הקצאה', result: 'תוצאת תרגול משוערת', risk: 'ציון סיכון', diversification: 'פיזור', export: 'ייצוא CSV', adReady: 'מעטפת אפליקציה חינמית מוכנה לפרסומות'
+    title: 'Bursapp', subtitle: 'למידה פיננסית חינמית עם AI, מסחר מדומה ותרגול שוק — מותאם למובייל.', start: 'התחלה חינם', free: 'חינם עם פרסומות', noAdvice: 'סימולציה לימודית בלבד. ללא כסף אמיתי. לא ייעוץ פיננסי.', simulator: 'סימולטור שוק עם AI', lessons: 'שיעורים קצרים', quiz: 'חידון מתחילים', aiCoach: 'מצב מאמן AI', capital: 'הון וירטואלי', scenario: 'תרחיש', allocation: 'הקצאה', result: 'תוצאת תרגול משוערת', risk: 'ציון סיכון', diversification: 'פיזור', export: 'ייצוא CSV', adReady: 'מעטפת אפליקציה חינמית מוכנה לפרסומות'
   },
   ar: {
-    title: 'Bullsap 2026', subtitle: 'تعلم مالي مجاني بمساعدة الذكاء الاصطناعي ومحاكاة تداول — مصمم لحركة مرور الهاتف.', start: 'ابدأ مجاناً', free: 'مجاني مع الإعلانات', noAdvice: 'محاكاة تعليمية فقط. لا مال حقيقي. ليست نصيحة مالية.', simulator: 'محاكي السوق بالذكاء الاصطناعي', lessons: 'دروس قصيرة', quiz: 'اختبار للمبتدئين', aiCoach: 'وضع مدرب الذكاء الاصطناعي', capital: 'رأس مال افتراضي', scenario: 'سيناريو', allocation: 'تخصيص', result: 'نتيجة تدريب متوقعة', risk: 'درجة المخاطر', diversification: 'التنويع', export: 'تصدير CSV', adReady: 'هيكل تطبيق مجاني جاهز للإعلانات'
+    title: 'Bursapp', subtitle: 'تعلم مالي مجاني بمساعدة الذكاء الاصطناعي ومحاكاة تداول — مصمم لحركة مرور الهاتف.', start: 'ابدأ مجاناً', free: 'مجاني مع الإعلانات', noAdvice: 'محاكاة تعليمية فقط. لا مال حقيقي. ليست نصيحة مالية.', simulator: 'محاكي السوق بالذكاء الاصطناعي', lessons: 'دروس قصيرة', quiz: 'اختبار للمبتدئين', aiCoach: 'وضع مدرب الذكاء الاصطناعي', capital: 'رأس مال افتراضي', scenario: 'سيناريو', allocation: 'تخصيص', result: 'نتيجة تدريب متوقعة', risk: 'درجة المخاطر', diversification: 'التنويع', export: 'تصدير CSV', adReady: 'هيكل تطبيق مجاني جاهز للإعلانات'
   },
   am: {
-    title: 'Bullsap 2026', subtitle: 'ነፃ የAI የገንዘብ ትምህርት፣ የገበያ ልምምድ እና ሲሙሌተር — ለሞባይል ትራፊክ የተዘጋጀ።', start: 'በነፃ ጀምር', free: 'ከማስታወቂያ ጋር ነፃ', noAdvice: 'የትምህርት ሲሙሌተር ብቻ። እውነተኛ ገንዘብ የለም። የፋይናንስ ምክር አይደለም።', simulator: 'የAI ገበያ ሲሙሌተር', lessons: 'አጭር ትምህርቶች', quiz: 'የጀማሪ ጥያቄዎች', aiCoach: 'AI ኮች ሁነታ', capital: 'ቨርቹዋል ካፒታል', scenario: 'ሁኔታ', allocation: 'ስርጭት', result: 'የልምምድ ውጤት', risk: 'የአደጋ ነጥብ', diversification: 'ስርጭት', export: 'CSV አውጣ', adReady: 'ለads ዝግጁ ነፃ app shell'
+    title: 'Bursapp', subtitle: 'ነፃ የAI የገንዘብ ትምህርት፣ የገበያ ልምምድ እና ሲሙሌተር — ለሞባይል ትራፊክ የተዘጋጀ።', start: 'በነፃ ጀምር', free: 'ከማስታወቂያ ጋር ነፃ', noAdvice: 'የትምህርት ሲሙሌተር ብቻ። እውነተኛ ገንዘብ የለም። የፋይናንስ ምክር አይደለም።', simulator: 'የAI ገበያ ሲሙሌተር', lessons: 'አጭር ትምህርቶች', quiz: 'የጀማሪ ጥያቄዎች', aiCoach: 'AI ኮች ሁነታ', capital: 'ቨርቹዋል ካፒታል', scenario: 'ሁኔታ', allocation: 'ስርጭት', result: 'የልምምድ ውጤት', risk: 'የአደጋ ነጥብ', diversification: 'ስርጭት', export: 'CSV አውጣ', adReady: 'ለads ዝግጁ ነፃ app shell'
   },
   ru: {
-    title: 'Bullsap 2026', subtitle: 'Бесплатное финансовое обучение с AI, бумажный трейдинг и рыночная практика — для мобильного трафика.', start: 'Начать бесплатно', free: 'Бесплатно с рекламой', noAdvice: 'Только учебная симуляция. Без реальных денег. Не финансовый совет.', simulator: 'AI-симулятор рынка', lessons: 'Микро-уроки', quiz: 'Квиз для новичков', aiCoach: 'AI-коуч', capital: 'Виртуальный капитал', scenario: 'Сценарий', allocation: 'Аллокация', result: 'Прогноз учебного результата', risk: 'Оценка риска', diversification: 'Диверсификация', export: 'Экспорт CSV', adReady: 'Free app shell для рекламы'
+    title: 'Bursapp', subtitle: 'Бесплатное финансовое обучение с AI, бумажный трейдинг и рыночная практика — для мобильного трафика.', start: 'Начать бесплатно', free: 'Бесплатно с рекламой', noAdvice: 'Только учебная симуляция. Без реальных денег. Не финансовый совет.', simulator: 'AI-симулятор рынка', lessons: 'Микро-уроки', quiz: 'Квиз для новичков', aiCoach: 'AI-коуч', capital: 'Виртуальный капитал', scenario: 'Сценарий', allocation: 'Аллокация', result: 'Прогноз учебного результата', risk: 'Оценка риска', diversification: 'Диверсификация', export: 'Экспорт CSV', adReady: 'Free app shell для рекламы'
   }
 };
 
@@ -120,7 +120,7 @@ export default function Index() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'bullsap-2026-practice-portfolio.csv';
+    link.download = 'bursapp-2026-practice-portfolio.csv';
     link.click();
     URL.revokeObjectURL(url);
   }

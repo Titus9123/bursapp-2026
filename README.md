@@ -1,4 +1,4 @@
-# Bullsap 2026
+# Bursapp
 
 Free multilingual AI-assisted financial learning and market-practice app shell, derived from the earlier private PWA foundation and narrowed for a 2026 ad-supported launch.
 

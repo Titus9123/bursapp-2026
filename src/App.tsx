@@ -13,7 +13,7 @@ const queryClient = new QueryClient();
 
 const AppContent = () => {
   useEffect(() => {
-    document.title = 'Bullsap 2026 — Free AI Market Practice';
+    document.title = 'Bursapp — Free AI Market Practice';
   }, []);
 
   return (

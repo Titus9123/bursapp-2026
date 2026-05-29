@@ -1,6 +1,7 @@
 {
-  "name": "bullsap-2026",
-  "private": true,
+  "name": "bursapp-2026",
+  "private": false,
+  "homepage": "https://titus9123.github.io/bursapp-2026/",
   "version": "0.1.0",
   "type": "module",
   "description": "Free multilingual AI-assisted financial learning and market simulation app with ad-ready architecture.",

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Bullsap 2026",
+    "title": "Bursapp",
     "tagline": "Free AI Market Practice"
   },
   "nav": {
@@ -14,8 +14,8 @@
     "retry": "Retry"
   },
   "pwa": {
-    "install": "Install Bullsap",
-    "installDescription": "Install Bullsap 2026 for fast mobile practice and offline learning.",
+    "install": "Install Bursapp",
+    "installDescription": "Install Bursapp for fast mobile practice and offline learning.",
     "installing": "Installing...",
     "installed": "App Installed!",
     "notSupported": "Installation not supported on this device",
