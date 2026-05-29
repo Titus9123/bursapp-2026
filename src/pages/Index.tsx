@@ -324,6 +324,7 @@ export default function Index() {
   useEffect(() => {
     document.documentElement.lang = language;
     document.documentElement.dir = dir;
+    document.documentElement.dataset.appLang = language;
   }, [language, dir]);
 
   function go(next: Screen, topic?: 'div' | 'dip' | 'comp') {

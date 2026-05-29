@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Noto+Sans+Hebrew:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -98,6 +98,21 @@
   position: relative;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+:root[data-app-lang="he"] .bursapp-app {
+  font-family: 'Heebo', 'Noto Sans Hebrew', 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+:root[data-app-lang="he"] .display-title,
+:root[data-app-lang="he"] .onboard-content h2,
+:root[data-app-lang="he"] .scroll-screen h1,
+:root[data-app-lang="he"] .coach-head h1,
+:root[data-app-lang="he"] .desktop-panel h1,
+:root[data-app-lang="he"] .home-header h1,
+:root[data-app-lang="he"] .scenario-card h2 {
+  font-family: 'Heebo', 'Noto Sans Hebrew', ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.035em;
+  font-weight: 800;
 }
 .bursapp-app.a11y-large { font-size: 18px; }
 .bursapp-app.a11y-readable { font-family: Verdana, Atkinson Hyperlegible, Arial, sans-serif; letter-spacing: .01em; }
