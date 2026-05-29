@@ -268,7 +268,12 @@ function readStorage<T>(key: string, fallback: T): T {
   if (typeof window === 'undefined') return fallback;
   try {
     const value = window.localStorage.getItem(key);
-    return value ? { ...fallback, ...JSON.parse(value) } : fallback;
+    if (!value) return fallback;
+    const parsed = JSON.parse(value);
+    if (fallback && typeof fallback === 'object' && !Array.isArray(fallback) && parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+      return { ...fallback, ...parsed } as T;
+    }
+    return parsed as T;
   } catch {
     return fallback;
   }
