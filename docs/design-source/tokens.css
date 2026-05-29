@@ -1,0 +1,156 @@
+/* ============================================================
+   Bursapp — Design Tokens
+   Financial-education app. Emerald accent on a premium dark base,
+   with an optional light surface mode for lessons & onboarding.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* ---- Accent (overridable by Tweaks) ---- */
+  --accent: #10d98a;
+  --accent-strong: #0bbd76;
+  --accent-dim: #0a8f5a;
+  --on-accent: #042015;
+  --accent-soft: color-mix(in srgb, var(--accent) 14%, transparent);
+  --accent-ring: color-mix(in srgb, var(--accent) 30%, transparent);
+
+  /* ---- Semantic (theme-independent hues) ---- */
+  --positive: #19c98a;
+  --caution: #f2b53c;
+  --negative: #ef6b5e;
+  --info: #5aa6ff;
+  --positive-soft: color-mix(in srgb, var(--positive) 15%, transparent);
+  --caution-soft: color-mix(in srgb, var(--caution) 16%, transparent);
+  --negative-soft: color-mix(in srgb, var(--negative) 15%, transparent);
+  --info-soft: color-mix(in srgb, var(--info) 15%, transparent);
+
+  /* ---- Typography ---- */
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+
+  --fs-display: 33px;  --lh-display: 1.08; --ls-display: -0.02em;
+  --fs-h1: 27px;       --lh-h1: 1.14;      --ls-h1: -0.018em;
+  --fs-h2: 21px;       --lh-h2: 1.2;       --ls-h2: -0.012em;
+  --fs-h3: 17px;       --lh-h3: 1.3;       --ls-h3: -0.006em;
+  --fs-body: 15px;     --lh-body: 1.5;
+  --fs-sm: 13.5px;     --lh-sm: 1.45;
+  --fs-cap: 12px;      --lh-cap: 1.35;     --ls-cap: 0.01em;
+  --fs-micro: 11px;    --ls-micro: 0.04em;
+
+  --fw-regular: 400; --fw-medium: 500; --fw-semibold: 600; --fw-bold: 700; --fw-extra: 800;
+
+  /* ---- Spacing (4px base) ---- */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 20px; --sp-6: 24px; --sp-7: 32px; --sp-8: 40px;
+  --sp-9: 48px; --sp-10: 64px;
+
+  /* ---- Radii ---- */
+  --r-xs: 8px; --r-sm: 12px; --r-md: 16px; --r-lg: 20px; --r-xl: 26px; --r-2xl: 32px; --r-full: 999px;
+
+  /* ---- Motion ---- */
+  --dur-fast: 130ms; --dur-base: 220ms; --dur-slow: 360ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ---- Layout ---- */
+  --tap: 44px;
+  --nav-h: 76px;
+}
+
+/* ============================================================
+   DARK THEME (default / app chrome)
+   ============================================================ */
+[data-theme="dark"] {
+  --bg: #0a0d10;
+  --bg-grad: radial-gradient(120% 80% at 50% -10%, #11181c 0%, #0a0d10 55%);
+  --surface: #12171c;
+  --surface-2: #1a212a;
+  --surface-3: #232c36;
+  --surface-inset: #0d1216;
+  --border: rgba(255,255,255,0.08);
+  --border-strong: rgba(255,255,255,0.14);
+  --text: #f3f7f5;
+  --text-2: #9ba8b0;
+  --text-3: #67737b;
+  --scrim: rgba(4,7,9,0.6);
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-md: 0 6px 20px -8px rgba(0,0,0,0.6);
+  --shadow-lg: 0 20px 48px -16px rgba(0,0,0,0.7);
+  --shadow-accent: 0 10px 30px -10px color-mix(in srgb, var(--accent) 50%, transparent);
+}
+
+/* ============================================================
+   LIGHT THEME (lessons & onboarding surfaces)
+   ============================================================ */
+[data-theme="light"] {
+  --bg: #f4f7f5;
+  --bg-grad: radial-gradient(120% 80% at 50% -10%, #ffffff 0%, #eef3f0 60%);
+  --surface: #ffffff;
+  --surface-2: #f0f4f1;
+  --surface-3: #e6ece8;
+  --surface-inset: #eef2ef;
+  --border: rgba(12,20,16,0.09);
+  --border-strong: rgba(12,20,16,0.16);
+  --text: #0c1611;
+  --text-2: #5a665f;
+  --text-3: #8b958e;
+  --scrim: rgba(12,20,16,0.4);
+  --on-accent: #042015;
+
+  --shadow-sm: 0 1px 2px rgba(16,40,28,0.06);
+  --shadow-md: 0 8px 24px -12px rgba(16,40,28,0.18);
+  --shadow-lg: 0 24px 60px -20px rgba(16,40,28,0.22);
+  --shadow-accent: 0 12px 32px -12px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+/* ============================================================
+   Base element styling
+   ============================================================ */
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+.bursa-app {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* color + bg resolve from whichever themed scope they sit in */
+[data-theme] {
+  color: var(--text);
+  background: var(--bg);
+}
+
+.bursa-app h1, .bursa-app h2, .bursa-app h3, .bursa-app p { margin: 0; }
+
+/* type helpers */
+.t-display { font-size: var(--fs-display); line-height: var(--lh-display); letter-spacing: var(--ls-display); font-weight: var(--fw-extra); }
+.t-h1 { font-size: var(--fs-h1); line-height: var(--lh-h1); letter-spacing: var(--ls-h1); font-weight: var(--fw-bold); }
+.t-h2 { font-size: var(--fs-h2); line-height: var(--lh-h2); letter-spacing: var(--ls-h2); font-weight: var(--fw-bold); }
+.t-h3 { font-size: var(--fs-h3); line-height: var(--lh-h3); letter-spacing: var(--ls-h3); font-weight: var(--fw-semibold); }
+.t-body { font-size: var(--fs-body); line-height: var(--lh-body); font-weight: var(--fw-regular); }
+.t-sm { font-size: var(--fs-sm); line-height: var(--lh-sm); }
+.t-cap { font-size: var(--fs-cap); line-height: var(--lh-cap); letter-spacing: var(--ls-cap); }
+.t-micro { font-size: var(--fs-micro); letter-spacing: var(--ls-micro); text-transform: uppercase; font-weight: var(--fw-semibold); }
+.t-mono { font-family: var(--font-mono); font-feature-settings: "tnum"; }
+
+.text-2 { color: var(--text-2); }
+.text-3 { color: var(--text-3); }
+.text-accent { color: var(--accent); }
+
+/* scrollbars inside the phone */
+.bursa-scroll::-webkit-scrollbar { width: 0; height: 0; }
+.bursa-scroll { scrollbar-width: none; -ms-overflow-style: none; }
+
+/* focus ring for accessibility */
+.focusable:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
